@@ -39,6 +39,8 @@ sudo systemctl enable netdata
 
 sudo systemctl status netdata
 
+sudo firewall-cmd --add-port=19999/tcp --permanent
+
 ```
 
 [cpu_usage.conf](./cpu_usage.conf)
